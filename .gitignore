@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# local working artefacts (the skill writes these while it runs)
+_*.cjs
+_*_out.txt
+_*.log
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
